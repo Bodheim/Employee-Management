@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const main = require('./lib/questions');
 const cTable = require('console.table');
-const dbConnection = require('./config/connection');
+const dbConnection = require('./config/connections');
 
 const displayMenu = () => {
   inquirer.prompt(main).then((data) => {
