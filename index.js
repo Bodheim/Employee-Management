@@ -78,6 +78,7 @@ async function addADepartment() {
       displayMenu();
     });
 }
+
 function addARole() {
   dbConnection.query(
     'SELECT name FROM department',
@@ -122,6 +123,7 @@ function addARole() {
     }
   );
 }
+
 async function addAnEmployee() {
   const roleQuery = 'SELECT title AS name FROM role';
   dbConnection.query(roleQuery, async (err, roles) => {
@@ -153,6 +155,7 @@ async function addAnEmployee() {
           choices: managers,
         },
       ]);
+
       const newEmployee = {};
       newEmployee.first_name = answers.first_name;
       newEmployee.last_name = answers.last_name;
@@ -187,6 +190,7 @@ async function addAnEmployee() {
     });
   });
 }
+
 async function updateAnEmployee() {
   // query database for all employees to pass into questions
   const empQuery =
