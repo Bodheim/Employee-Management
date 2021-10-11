@@ -1,28 +1,28 @@
 {
-  "name": "employee-manager",
+  "name": "employee-manage",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "none",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "none",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "dotenv": "^10.0.0",
-    "inquirer": "^8.1.2",
-    "mysql2": "^2.3.0",
-    "sequelize": "^6.6.5"
-  },
-  "bugs": {
-    "url": "https://github.com/nickwojt/employee-manager/issues"
-  },
-  "keywords": [],
-  "homepage": "https://github.com/nickwojt/employee-manager#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickwojt/employee-manager.git"
+    "url": "git+https://github.com/Bodheim/Employee-Management"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Abby Castelow",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Bodheim/Employee-Management/issues"
+  },
+  "homepage": "https://github.com/Bodheim/Employee-Management",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.2",
+    "mysql2": "^2.3.0"
   }
 }
